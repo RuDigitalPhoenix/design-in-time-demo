@@ -1,4 +1,3 @@
-<html>
 <html lang="ru">
   <head>
     <meta charset="utf-8">
@@ -23,7 +22,7 @@
     <div class="container">
 
       <form class="form-signin">
-        <h4 class="form-signin-heading">Пожалуйста, авторизуйтесь для доступа к списку позиций!</h2>
+        <h4 class="form-signin-heading">Пожалуйста, авторизуйтесь для доступа к списку позиций!</h4>
 		<p>&nbsp;</p>
         <label for="inputEmail" class="sr-only">Имя пользователя:</label>
         <input type="text" id="inputEmail" class="form-control" placeholder="Имя пользователя" required autofocus>
