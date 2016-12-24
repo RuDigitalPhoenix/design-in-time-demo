@@ -2,8 +2,12 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: #eee;
+  
 }
 
+.brand-text {
+    float: right;
+}
 
 .form-signin {
   max-width: 330px;
@@ -43,7 +47,38 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+.pagination {
+    margin-top: 10px;
+}
+.pagination-detail {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.help {
+    position: relative;
+    border-bottom: 1px dotted black;
+    text-decoration: none;
+    color: black;
+}
 
- th.help {
-    border-bottom: dashed 1px #000000;
+ .help-tooltip {
+    visibility: hidden;
+    width: 120px;
+    font-size: x-small;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+.help:hover {
+    text-decoration: none;
+    color: black;
+    cursor: help;
+}
+.help:hover .help-tooltip {
+    visibility: visible;
+ 
 }
