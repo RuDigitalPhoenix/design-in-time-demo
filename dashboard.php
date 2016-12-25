@@ -76,7 +76,8 @@
   <table class="table table-striped">
     <thead>
       <tr>
-        <th><a class="help">Название</a><p class="help-tooltip">Наименование экземпляра продукции</span></th>
+        <th><a class="help">Название</a>
+          <span class="help-tooltip">Наименование экземпляра продукции</span></th>
         <th><a class="help">Стоимость за единицу</a></th>
           <span class="help-tooltip">Продажная стоимость единицы продукции (с учетом закупа, доставка, хранения и пр.), рубли</span>
         <th><a class="help">Тип единицы продукции</a></th>
